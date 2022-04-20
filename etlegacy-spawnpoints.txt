@@ -9,17 +9,26 @@ Allies
 setspawnpt 1 // tank middle
 setspawnpt 2 // tank left > CP middle
 setspawnpt 3 // tank right > CP left
+setspawnpt 1 8 // spawn back at tank left
+setspawnpt 3 3 // cp fast
+setspawnpt 3 1 // tank right
 
 ### autoexec_etl_frostbite
 Axis
 setspawnpt 1 // garage right
 setspawnpt 2 // barracks
 setspawnpt 3 // garage left
+setspawnpt 2 3  // bunks fast
+setspawnpt 2 27 // bunks slow
+setspawnpt 3 8  // garage left
 Allies
 setspawnpt 1 // huts
 setspawnpt 2 // huts fast > CP alt
 setspawnpt 3 // huts left > CP alt
 setspawnpt 4 // CP
+setspawnpt 4 4  // cp fast
+setspawnpt 1 26 // spawn back huts left
+setspawnpt 2 10 //  huts slow
 
 ### autoexec_etl_ice
 Axis
@@ -28,11 +37,18 @@ setspawnpt 2 // north hut > flag left
 setspawnpt 3 // transmitter south
 setspawnpt 4 // north hut
 setspawnpt 5 // north hut > flag center
+setspawnpt 3 1  // transmitter faster
+setspawnpt 4 1  // spawn back north hut faster
+setspawnpt 5 7  // start slow > flag left
 Allies
 setspawnpt 1 // south hill
 setspawnpt 2 // north hut
 setspawnpt 3 // south hill alt
 setspawnpt 4 // north hut alt
+setspawnpt 2 7  // north
+setspawnpt 3 7  // hill fast
+setspawnpt 1 4  // hill slow
+setspawnpt 4 1  // north right alternate
 
 ### autoexec_etl_sp_delivery
 Axis
@@ -49,11 +65,17 @@ setspawnpt 1 // depot back
 setspawnpt 2 // depot 
 setspawnpt 3 // flag > depot back left
 setspawnpt 4 // flag right > front depot
+setspawnpt 2 5  // spawn back depot faster
 Allies
 setspawnpt 1 // barn
 setspawnpt 2 // barn right
 setspawnpt 3 // barn right > flag
 setspawnpt 4 // CP
+setspawnpt 3 1  // flag fast
+setspawnpt 4 1  // cp right
+setspawnpt 1 1  // barn fast
+setspawnpt 4 14 // cp
+
 
 ### autoexec_erdenberg_t2
 Axis
