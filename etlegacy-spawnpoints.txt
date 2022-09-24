@@ -52,11 +52,12 @@ setspawnpt 4 1  // north right alternate
 
 ### autoexec_etl_sp_delivery
 Axis
-setspawnpt 1 // offices left
-setspawnpt 2 // offices right
+setspawnpt 1   // offices left
+setspawnpt 2   // offices right
+setspawnpt 2 6 // offices right fast
 Allies
-setspawnpt 1 // train > flag left
-setspawnpt 2 // train right > flag right
+setspawnpt 1 1 // train left > flag left
+setspawnpt 2  // train right > flag right
 setspawnpt 3 // train 
 
 ### autoexec_etl_supply
