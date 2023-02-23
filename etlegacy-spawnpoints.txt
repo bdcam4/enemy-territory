@@ -2,49 +2,49 @@
 
 ### autoexec_etl_adlernest
 Axis
-setspawnpt 1 // bunks left 
-setspawnpt 2 // bunks right
-setspawnpt 3 // bunks left back
+setspawnpt 1    // bunks left 
+setspawnpt 2    // bunks right
+setspawnpt 3    // bunks left slow
 Allies
-setspawnpt 1 // tank middle
-setspawnpt 2 // tank left > CP middle
-setspawnpt 3 // tank right > CP left
-setspawnpt 1 8 // spawn back at tank left
-setspawnpt 3 3 // cp fast
-setspawnpt 3 1 // tank right
+setspawnpt 1    // tank middle
+setspawnpt 2    // tank left > CP middle
+setspawnpt 3    // tank right > CP left
+setspawnpt 1 8  // spawn back at tank left
+setspawnpt 3 3  // cp fast
+setspawnpt 3 1  // tank right
 
 ### autoexec_etl_frostbite
 Axis
-setspawnpt 1 // garage right
-setspawnpt 2 // barracks
-setspawnpt 3 // garage left
+setspawnpt 1    // garage right
+setspawnpt 2    // barracks
+setspawnpt 3    // garage left
 setspawnpt 2 3  // bunks fast
 setspawnpt 2 27 // bunks slow
 setspawnpt 3 8  // garage left
 Allies
-setspawnpt 1 // huts
-setspawnpt 2 // huts fast > CP alt
-setspawnpt 3 // huts left > CP alt
-setspawnpt 4 // CP
+setspawnpt 1    // huts
+setspawnpt 2    // huts fast > CP alt
+setspawnpt 3    // huts left > CP alt
+setspawnpt 4    // CP
 setspawnpt 4 4  // cp fast
 setspawnpt 1 26 // spawn back huts left
 setspawnpt 2 10 //  huts slow
 
 ### autoexec_etl_ice
 Axis
-setspawnpt 1 // north hut > flag right
-setspawnpt 2 // north hut > flag left
-setspawnpt 3 // transmitter south
-setspawnpt 4 // north hut
-setspawnpt 5 // north hut > flag center
+setspawnpt 1    // north hut > flag right
+setspawnpt 2    // north hut > flag left
+setspawnpt 3    // transmitter south
+setspawnpt 4    // north hut
+setspawnpt 5    // north hut > flag center
 setspawnpt 3 1  // transmitter faster
 setspawnpt 4 1  // spawn back north hut faster
 setspawnpt 5 7  // start slow > flag left
 Allies
-setspawnpt 1 // south hill
-setspawnpt 2 // north hut
-setspawnpt 3 // south hill alt
-setspawnpt 4 // north hut alt
+setspawnpt 1    // south hill
+setspawnpt 2    // north hut
+setspawnpt 3    // south hill alt
+setspawnpt 4    // north hut alt
 setspawnpt 2 7  // north
 setspawnpt 3 7  // hill fast
 setspawnpt 1 4  // hill slow
@@ -52,26 +52,26 @@ setspawnpt 4 1  // north right alternate
 
 ### autoexec_etl_sp_delivery
 Axis
-setspawnpt 1   // offices left
-setspawnpt 2   // offices right
-setspawnpt 2 6 // offices right fast
+setspawnpt 1    // offices left
+setspawnpt 2    // offices right
+setspawnpt 2 6  // offices right fast
 Allies
-setspawnpt 1 1 // train left > flag left
-setspawnpt 2  // train right > flag right
-setspawnpt 3 // train 
+setspawnpt 1 1  // train left > flag left
+setspawnpt 2    // train right > flag right
+setspawnpt 3    // train 
 
 ### autoexec_etl_supply
 Axis
-setspawnpt 1 // depot back
-setspawnpt 2 // depot 
-setspawnpt 3 // flag > depot back left
-setspawnpt 4 // flag right > front depot
+setspawnpt 1    // depot back
+setspawnpt 2    // depot 
+setspawnpt 3    // flag > depot back left
+setspawnpt 4    // flag right > front depot
 setspawnpt 2 5  // spawn back depot faster
 Allies
-setspawnpt 1 // barn
-setspawnpt 2 // barn right
-setspawnpt 3 // barn right > flag
-setspawnpt 4 // CP
+setspawnpt 1    // barn
+setspawnpt 2    // barn right
+setspawnpt 3    // barn right > flag
+setspawnpt 4    // CP
 setspawnpt 3 1  // flag fast
 setspawnpt 4 1  // cp right
 setspawnpt 1 1  // barn fast
@@ -80,120 +80,121 @@ setspawnpt 4 14 // cp
 
 ### autoexec_erdenberg_t2
 Axis
-setspawnpt 1 // flag right 
-setspawnpt 2 // rear
-setspawnpt 3 // flag
-setspawnpt 4 // rear alt
+setspawnpt 1    // flag right 
+setspawnpt 2    // rear
+setspawnpt 3    // flag
+setspawnpt 4    // rear alt
 Allies
-setspawnpt 1 // start
-setspawnpt 2 // CP
-setspawnpt 3 // flag
+setspawnpt 1    // start
+setspawnpt 2    // CP
+setspawnpt 3    // flag
 
 ### autoexec_et_brewdog_b4
 Axis
-setspawnpt 1 // default
-setspawnpt 2 // alt
+setspawnpt 1    // default
+setspawnpt 2    // alt
+setspawnpt 3 4  // lower
 Allies
-setspawnpt 1 // flag alt
-setspawnpt 2 // flag
-setspawnpt 3 // start
+setspawnpt 1    // flag alt
+setspawnpt 2    // flag
+setspawnpt 3    // start
 
 ### autoexec_te_escape_2
 Axis
-setspawnpt 1 // rear
-setspawnpt 2 // flag right
-setspawnpt 3 // flag
+setspawnpt 1    // rear
+setspawnpt 2    // flag right
+setspawnpt 3    // flag
 Allies
-setspawnpt 1 // tower > flag right
-setspawnpt 2 // tower
-setspawnpt 3 // tower > flag
+setspawnpt 1    // tower > flag right
+setspawnpt 2    // tower
+setspawnpt 3    // tower > flag
 
 ### autoexec_decay_sw
 Axis
-setspawnpt 1 // flag > rear left
-setspawnpt 2 // rear right
-setspawnpt 3 // flag right
+setspawnpt 1    // flag > rear left
+setspawnpt 2    // rear right
+setspawnpt 3    // flag right
 Allies
-setspawnpt 1 // flag
-setspawnpt 2 // start right
-setspawnpt 3 // CP 
-setspawnpt 4 // start
-setspawnpt 5 // forward lockers
+setspawnpt 1    // flag
+setspawnpt 2    // start right
+setspawnpt 3    // CP 
+setspawnpt 4    // start
+setspawnpt 5    // forward lockers
 
 ### autoexec_sw_goldrush_te
 Axis
-setspawnpt 1 // tank alt > rear alt
-setspawnpt 2 // tank right (engi)
-setspawnpt 3 // tank > rear alt
-setspawnpt 4 // rear
+setspawnpt 1    // tank alt > rear alt
+setspawnpt 2    // tank right (engi)
+setspawnpt 3    // tank > rear alt
+setspawnpt 4    // rear
 Allies
-setspawnpt 1 // tank
-setspawnpt 2 // truck exit
-setspawnpt 3 // CP
-setspawnpt 4 // CP alt
+setspawnpt 1    // tank
+setspawnpt 2    // truck exit
+setspawnpt 3    // CP
+setspawnpt 4    // CP alt
 
 ### autoexec_braundorf_b4
 Axis
-setspawnpt 1 // flag
-setspawnpt 2 // bunker
-setspawnpt 3 // flag right
-setspawnpt 4 // flag left
+setspawnpt 1    // flag
+setspawnpt 2    // bunker
+setspawnpt 3    // flag right
+setspawnpt 4    // flag left
 Allies
-setspawnpt 1 // alley > flag
-setspawnpt 2 // main > flag
-setspawnpt 3 // start
-setspawnpt 4 // CP
+setspawnpt 1    // alley > flag
+setspawnpt 2    // main > flag
+setspawnpt 3    // start
+setspawnpt 4    // CP
 
 ### autoexec_et_beach
 Axis
-setspawnpt 1   // high
-setspawnpt 2   // high
-setspawnpt 3-5 // low
-setspawnpt 6   // barracks
+setspawnpt 1    // high
+setspawnpt 2    // high
+setspawnpt 3-5  // low
+setspawnpt 6    // barracks
 Allies
-setspawnpt 1 // beach > flag
-setspawnpt 3 // beach alt
-setspawnpt 7 // sniper hill
+setspawnpt 1    // beach > flag
+setspawnpt 3    // beach alt
+setspawnpt 7    // sniper hill
 
 ### autoexec_karsiah_te2
 Axis
-setspawnpt 1 // rear
-setspawnpt 2 // flag right
-setspawnpt 3 // flag
+setspawnpt 1    // rear
+setspawnpt 2    // flag right
+setspawnpt 3    // flag
 Allies
-setspawnpt 1 // flag alt
-setspawnpt 2 // start
-setspawnpt 3 // flag
+setspawnpt 1    // flag alt
+setspawnpt 2    // start
+setspawnpt 3     // flag
 
 ### autoexec_radar
 Axis
-setspawnpt 1 // bunker
-setspawnpt 2 // bunker (fops bunker > west hut)
-setspawnpt 4 // west hut
-setspawnpt 5 // warehouse
+setspawnpt 1    // bunker
+setspawnpt 2    // bunker (fops bunker > west hut)
+setspawnpt 4    // west hut
+setspawnpt 5    // warehouse
 Allies
-setspawnpt 1 // villa alt > CP
-setspawnpt 2 // villa
-setspawnpt 3 // bunker
-setspawnpt 4 // villa alt > bunker alt
+setspawnpt 1    // villa alt > CP
+setspawnpt 2    // villa
+setspawnpt 3    // bunker
+setspawnpt 4    // villa alt > bunker alt
 
 ### autoexec_bremen_b3
 Axis
-setspawnpt 1 // rear truck
-setspawnpt 2 // flag
-setspawnpt 5 // rear fence
+setspawnpt 1    // rear truck
+setspawnpt 2    // flag
+setspawnpt 5    // rear fence
 Allies
-setspawnpt 1 // start
-setspawnpt 3 // flag
-setspawnpt 5 // CP
+setspawnpt 1    // start
+setspawnpt 3    // flag
+setspawnpt 5    // CP
 
 ### autoexec_missile_b3
 Axis
-setspawnpt 1 // second stage
-setspawnpt 2 // flag
-setspawnpt 5 // last stage
+setspawnpt 1    // second stage
+setspawnpt 2    // flag
+setspawnpt 5    // last stage
 Allies
-setspawnpt 2 // flag
-setspawnpt 3 // start
-setspawnpt 4 // CP
-setspawnpt 6 // last stage
+setspawnpt 2    // flag
+setspawnpt 3    // start
+setspawnpt 4    // CP
+setspawnpt 6    // last stage
