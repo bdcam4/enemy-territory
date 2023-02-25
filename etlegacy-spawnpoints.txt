@@ -71,6 +71,7 @@ Allies
 setspawnpt 1    // barn
 setspawnpt 2    // barn right
 setspawnpt 3    // barn right > flag
+setspawnpt 3 21 // best barn right > flag
 setspawnpt 4    // CP
 setspawnpt 3 1  // flag fast
 setspawnpt 4 1  // cp right
@@ -141,7 +142,7 @@ setspawnpt 3    // flag right
 setspawnpt 4    // flag left
 Allies
 setspawnpt 1    // alley > flag
-setspawnpt 2    // main > flag
+setspawnpt 2    // main > flag > CP
 setspawnpt 3    // start
 setspawnpt 4    // CP
 
@@ -164,7 +165,7 @@ setspawnpt 3    // flag
 Allies
 setspawnpt 1    // flag alt
 setspawnpt 2    // start
-setspawnpt 3     // flag
+setspawnpt 3    // flag
 
 ### autoexec_radar
 Axis
