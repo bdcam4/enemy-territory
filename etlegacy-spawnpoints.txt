@@ -199,3 +199,14 @@ setspawnpt 2    // flag
 setspawnpt 3    // start
 setspawnpt 4    // CP
 setspawnpt 6    // last stage
+
+### autoexec_tram2
+Axis
+setspawnpt 1    // right fast
+setspawnpt 2    // left
+setspawnpt 5    // right slow
+Allies
+setspawnpt 2    // hut
+setspawnpt 5    // outpost
+setspawnpt 4    // flag
+setspawnpt 3    // tram station
