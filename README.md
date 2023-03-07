@@ -2,5 +2,5 @@
 
 - competitive maps
 - mo* style autoexecs
-- WuT custom hud
+- various custom huds
 - pug cfg
