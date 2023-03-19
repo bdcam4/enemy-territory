@@ -1,122 +1,1395 @@
-hudDef {
-	hud {
-        hudnumber 6 //  x  		y  w  h s v	sc	r	g	b	a
-        compass          286   390 90 90 0 1 
-        staminabar      265   383 12 72 0 1 
-        breathbar       275   310 12 72 0 1 
-        healthbar       275   383 12 72 0 1 
-        weaponchangebar 355   383 12 72 0 1 
-        healthtext      275   300 0 0 0 1 0.30 1 0.647 0 1
-        xptext          610   475 0 0 0 1
-	    weaponammo      375   300 0 0 0 1 0.30 0.498 1 0.831 1
-        statsdisplay    630   405 0 0 1 1 
-        weaponicon      300   350 54 28.8 0 1
-	    fireteam 		400   10 100 100  0 1
-        popupmessages     4   100 72 72   0 1 
-	    cursorhints		222	  260 48 48	  0 1
-        weaponstability  50   208 10 64   0 1
-	    reinforcement	330	300 0 0 0 1  0.19 0	0.5	1	1
-	    spawntimer		317	300 0 0 0 1  0.19 1	0	0	1
-        roundtimer    	311 320 0 0 0 1  0.19 1	1	1	1
-        localtime       600   270 0 0 0 1  
-	    ranktext		-420 464	0	0	0	1
-	    objectives		8	344	36	36	0	1
-	    votetext		8	224	0.22	0.22	1	1
-	    spectatortext	8	188	0.22	0.22	1	1
-	    limbotext		8	164	0.22	0.22	1	1
-	    followtext		8	164	0.22	0.22	1	1
-	    demotext		10	9	0.22	0.22	1	1
-	    livesleft         0     0 0 0 0 1 
-	    powerups        440   340 72 72 1 1 
-        hudhead         -420   0 2000 480 0 0
-	}
-	hud {
-		hudnumber 5 //  x   y   w   h   s   v	sc	r	g	b	a
-		compass			44	393	84	84	0	1
-		staminabar		4	388	12	72	0	1
-		breathbar		4	388	12	72	0	1
-		healthbar		604	388	12	72	0	1
-		weaponchargebar	624	388	12	72	0	1
-		healthtext		580	415	0	0	0	1
-		xptext			48	476	0	0	0	1
-		ranktext		62	464	0	0	0	1
-		statsdisplay		24	385	0	0	1	1
-		weaponicon		538	424	60	32	0	1
-		weaponammo		598	470	0	0	0	1
-		fireteam		400	10	100	100	0	1
-		popupmessages		4	100	72	72	0	1
-		powerups		600	344	36	36	0	1
-		objectives		8	344	36	36	0	1
-		hudhead			44	388	62	80	0	0
-		cursorhints		296	260	48	48	0	1
-		weaponstability		50	208	10	64	0	1
-		livesleft		0	0	0	0	0	1
-		reinforcement	330	300	0	0	0	1
-	    spawntimer		317	300	0	0	0	1
-        roundtimer      311 320 0 0 0 1 
-		localtime		570	400	0	0	0	1
-		votetext		8	224	0.22	0.22	1	1
-		spectatortext		8	188	0.22	0.22	1	1
-		limbotext		8	164	0.22	0.22	1	1
-		followtext		8	164	0.22	0.22	1	1
-		demotext		10	9	0.22	0.22	1	1
-	}
-		hud {
-			// RTCW styled HUD
-		hudnumber 7
-		compass 292 425 72 72 0 1
-		staminabar 4 405 18 72 0 1
-		breathbar 4 388 12 72 0 0
-		healthbar 600 388 12 75 0 0
-		weaponchargebar 622 405 18 72 0 1
-		healthtext 50   470 0 0 0 1 0.4 1 0.647 0 1
-		xptext 28 476 0 0 0 0
-		statsdisplay 24 385 0 0 1 0
-		weaponicon 564 420 60 32 0 1
-		weaponammo 598 470 0 0 0 1 0.4 0.498 1 0.831 1
-		fireteam 400 10 100 100 0 1
-		popupmessages 4 100 72 72 0 1
-		powerups 600 340 36 36 0 1
-		hudhead 44 388 62 80 0 0
-		cursorhints 296 260 48 48 0 1
-		weaponstability 50 208 10 64 0 0
-		livesleft 0 0 0 0 0 0
-		votetext 8 224 0.22 0.22 1 1
-		spectatortext 8 188 0.22 0.22 1 1
-		limbotext 8 164 0.22 0.22 1 1
-		followtext 8 164 0.22 0.22 1 1
-		demotext 10 9 0.22 0.22 1 1
-	    reinforcement	30	200 0 0 0 1  0.5 0	1	0	1
-		spawntimer		327	390 0 0 0 1  0.5 1	0	0	1
-        roundtimer 600 250 0 0 0 1
-	}
-		hud {
-			// RTCW styled HUD 2
-		hudnumber 8
-		compass 292 425 72 72 0 1
-		staminabar 4 405 18 72 0 1
-		breathbar 4 388 12 72 0 0
-		healthbar 600 388 12 75 0 0
-		weaponchargebar 622 405 18 72 0 1
-		healthtext 50   470 0 0 0 1 0.4 1 0.647 0 1
-		xptext 28 476 0 0 0 0
-		statsdisplay 24 385 0 0 1 0
-		weaponicon 564 420 60 32 0 1
-		weaponammo 598 470 0 0 0 1 0.4 0.498 1 0.831 1
-		fireteam 400 10 100 100 0 1
-		popupmessages 4 100 72 72 0 1
-		powerups 600 340 36 36 0 1
-		hudhead 44 388 62 80 0 0
-		cursorhints 296 260 48 48 0 1
-		weaponstability 50 208 10 64 0 0
-		livesleft 0 0 0 0 0 0
-		votetext 8 224 0.22 0.22 1 1
-		spectatortext 8 188 0.22 0.22 1 1
-		limbotext 8 164 0.22 0.22 1 1
-		followtext 8 164 0.22 0.22 1 1
-		demotext 10 9 0.22 0.22 1 1
-	    reinforcement	285	450 0 0 0 1  0.5 0	1	0	1
-		spawntimer		370	450 0 0 0 1  0.5 1	0	0	1
-        roundtimer 600 250 0 0 0 1
-	}
+{
+	"version":	2,
+	"huds":	[{
+			"name":	"",
+			"number":	1,
+			"components":	{
+				"compass":	{
+					"rect":	{
+						"x":	49,
+						"y":	-19,
+						"w":	84,
+						"h":	84
+					},
+					"style":	14,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"healthbar":	{
+					"rect":	{
+						"x":	-24,
+						"y":	-20,
+						"w":	12,
+						"h":	72
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"healthtext":	{
+					"rect":	{
+						"x":	-41,
+						"y":	-62,
+						"w":	57,
+						"h":	14
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"xptext":	{
+					"rect":	{
+						"x":	24,
+						"y":	-2,
+						"w":	57,
+						"h":	14
+					},
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"ranktext":	{
+					"rect":	{
+						"x":	30,
+						"y":	-14,
+						"w":	57,
+						"h":	14
+					},
+					"visible":	true,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"statsdisplay":	{
+					"rect":	{
+						"x":	24,
+						"y":	-20,
+						"w":	14,
+						"h":	72
+					},
+					"style":	1,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"weaponicon":	{
+					"rect":	{
+						"x":	-45,
+						"y":	-20,
+						"w":	60,
+						"h":	32
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"weaponammo":	{
+					"rect":	{
+						"x":	-45,
+						"y":	-8,
+						"w":	57,
+						"h":	14
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"fireteam":	{
+					"rect":	{
+						"x":	10,
+						"y":	10,
+						"w":	320,
+						"h":	100
+					},
+					"anchor":	0,
+					"parent":	{
+						"anchor":	0,
+						"component":	null
+					}
+				},
+				"hudhead":	{
+					"visible":	false
+				},
+				"reinforcement":	{
+					"secondaryColor":	"007fffff"
+				},
+				"spawntimer":	{
+					"secondaryColor":	"ff0000ff"
+				},
+				"votetext":	{
+					"secondaryColor":	"ffff00ff"
+				},
+				"demotext":	{
+					"secondaryColor":	"ff0000ff"
+				},
+				"missilecamera":	{
+					"rect":	{
+						"x":	4,
+						"y":	4,
+						"w":	160,
+						"h":	120
+					},
+					"anchor":	6,
+					"parent":	{
+						"anchor":	7,
+						"component":	null
+					}
+				}
+			}
+		}, {
+			"name":	"",
+			"number":	2,
+			"parent":	1,
+			"components":	{
+				"crosshair":	{
+					"rect":	{
+						"x":	0,
+						"y":	0,
+						"w":	25,
+						"h":	25
+					},
+					"style":	0,
+					"anchor":	8,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"compass":	{
+					"rect":	{
+						"x":	28.000001907348633,
+						"y":	-19,
+						"w":	84,
+						"h":	84
+					},
+					"style":	114,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"healthbar":	{
+					"rect":	{
+						"x":	15.75,
+						"y":	-20,
+						"w":	12,
+						"h":	72
+					},
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"healthtext":	{
+					"rect":	{
+						"x":	21.250001907348633,
+						"y":	-4,
+						"w":	57,
+						"h":	14
+					},
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"xptext":	{
+					"rect":	{
+						"x":	0,
+						"y":	0,
+						"w":	57,
+						"h":	14
+					},
+					"anchor":	1,
+					"parent":	{
+						"anchor":	1,
+						"component":	null
+					}
+				},
+				"ranktext":	{
+					"rect":	{
+						"x":	115.00000762939453,
+						"y":	-14,
+						"w":	57,
+						"h":	14
+					},
+					"visible":	false,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"statsdisplay":	{
+					"rect":	{
+						"x":	45,
+						"y":	-20,
+						"w":	14,
+						"h":	72
+					},
+					"visible":	false,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"weaponicon":	{
+					"rect":	{
+						"x":	-15.999984741210938,
+						"y":	-9,
+						"w":	60,
+						"h":	32
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"weaponammo":	{
+					"rect":	{
+						"x":	-18.249984741210938,
+						"y":	-46,
+						"w":	57,
+						"h":	14
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"roundtimer":	{
+					"rect":	{
+						"x":	-3,
+						"y":	-26,
+						"w":	57,
+						"h":	14
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	3,
+						"component":	null
+					}
+				},
+				"localtime":	{
+					"visible":	false
+				},
+				"fps":	{
+					"visible":	false
+				},
+				"ping":	{
+					"visible":	false
+				},
+				"speed":	{
+					"visible":	false
+				},
+				"pmitemsbig":	{
+					"visible":	false
+				}
+			}
+		}, {
+			"name":	"",
+			"number":	3,
+			"parent":	2,
+			"components":	{
+				"crosshair":	{
+					"rect":	{
+						"x":	0,
+						"y":	0,
+						"w":	48,
+						"h":	48
+					},
+					"style":	1,
+					"anchor":	8,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"compass":	{
+					"rect":	{
+						"x":	70,
+						"y":	-19,
+						"w":	84,
+						"h":	84
+					},
+					"style":	14,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"healthbar":	{
+					"rect":	{
+						"x":	-24,
+						"y":	-20,
+						"w":	12,
+						"h":	72
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"healthtext":	{
+					"rect":	{
+						"x":	-41,
+						"y":	-62,
+						"w":	57,
+						"h":	14
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"xptext":	{
+					"rect":	{
+						"x":	40,
+						"y":	-2,
+						"w":	57,
+						"h":	14
+					},
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"ranktext":	{
+					"rect":	{
+						"x":	100,
+						"y":	-2,
+						"w":	57,
+						"h":	14
+					},
+					"visible":	true,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"statsdisplay":	{
+					"visible":	true
+				},
+				"weaponicon":	{
+					"rect":	{
+						"x":	-45,
+						"y":	-20,
+						"w":	60,
+						"h":	32
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"weaponammo":	{
+					"rect":	{
+						"x":	-45,
+						"y":	-8,
+						"w":	57,
+						"h":	14
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"powerups":	{
+					"rect":	{
+						"x":	-4,
+						"y":	96,
+						"w":	36,
+						"h":	36
+					},
+					"anchor":	2,
+					"parent":	{
+						"anchor":	3,
+						"component":	null
+					}
+				},
+				"objectives":	{
+					"rect":	{
+						"x":	4,
+						"y":	96,
+						"w":	36,
+						"h":	36
+					},
+					"anchor":	0,
+					"parent":	{
+						"anchor":	7,
+						"component":	null
+					}
+				},
+				"livesleft":	{
+					"rect":	{
+						"x":	44,
+						"y":	102,
+						"w":	48,
+						"h":	24
+					},
+					"anchor":	0,
+					"parent":	{
+						"anchor":	7,
+						"component":	null
+					}
+				},
+				"roundtimer":	{
+					"rect":	{
+						"x":	-41,
+						"y":	-78,
+						"w":	57,
+						"h":	14
+					},
+					"style":	1,
+					"showBackGround":	false,
+					"showBorder":	false,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"reinforcement":	{
+					"rect":	{
+						"x":	-41,
+						"y":	-78,
+						"w":	57,
+						"h":	14
+					},
+					"visible":	true,
+					"showBackGround":	false,
+					"showBorder":	false,
+					"textAlign":	0,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"spawntimer":	{
+					"rect":	{
+						"x":	-41,
+						"y":	-78,
+						"w":	57,
+						"h":	14
+					},
+					"visible":	true,
+					"showBackGround":	false,
+					"showBorder":	false,
+					"textAlign":	2,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"localtime":	{
+					"visible":	true
+				},
+				"sprinttext":	{
+					"rect":	{
+						"x":	4,
+						"y":	-93,
+						"w":	57,
+						"h":	14
+					},
+					"visible":	true,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"breathtext":	{
+					"rect":	{
+						"x":	4,
+						"y":	-93,
+						"w":	57,
+						"h":	14
+					},
+					"visible":	true,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"weaponchargetext":	{
+					"rect":	{
+						"x":	-3,
+						"y":	-92,
+						"w":	57,
+						"h":	14
+					},
+					"visible":	true,
+					"textAlign":	2,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"fps":	{
+					"visible":	true
+				},
+				"ping":	{
+					"visible":	true
+				},
+				"speed":	{
+					"visible":	true
+				},
+				"pmitemsbig":	{
+					"visible":	true
+				}
+			}
+		}, {
+			"name":	"pug legacy",
+			"number":	4,
+			"parent":	3,
+			"components":	{
+				"crosshair":	{
+					"rect":	{
+						"x":	0,
+						"y":	0,
+						"w":	25,
+						"h":	25
+					},
+					"style":	0,
+					"mainColor":	"00ff00ff",
+					"secondaryColor":	"00ffffff",
+					"anchor":	8,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"compass":	{
+					"rect":	{
+						"x":	0,
+						"y":	-3,
+						"w":	90,
+						"h":	90
+					},
+					"style":	82,
+					"anchor":	5,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"staminabar":	{
+					"rect":	{
+						"x":	-42.70001220703125,
+						"y":	-18,
+						"w":	12,
+						"h":	72
+					},
+					"style":	3077,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"breathbar":	{
+					"rect":	{
+						"x":	-41.95001220703125,
+						"y":	-17,
+						"w":	12,
+						"h":	72
+					},
+					"style":	5,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"healthbar":	{
+					"rect":	{
+						"x":	-31.45001220703125,
+						"y":	-18,
+						"w":	12,
+						"h":	72
+					},
+					"style":	3077,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"weaponchargebar":	{
+					"rect":	{
+						"x":	31.54998779296875,
+						"y":	-18,
+						"w":	12,
+						"h":	72
+					},
+					"style":	3077,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"healthtext":	{
+					"rect":	{
+						"x":	-27.250007629394531,
+						"y":	97,
+						"w":	57,
+						"h":	14
+					},
+					"mainColor":	"ff9600ff",
+					"anchor":	2,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"xptext":	{
+					"rect":	{
+						"x":	-17.050003051757813,
+						"y":	-3,
+						"w":	58,
+						"h":	14
+					},
+					"textAlign":	2,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"ranktext":	{
+					"rect":	{
+						"x":	-58.749984741210938,
+						"y":	-19,
+						"w":	58,
+						"h":	14
+					},
+					"visible":	false,
+					"textAlign":	2,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"statsdisplay":	{
+					"rect":	{
+						"x":	-4,
+						"y":	-3,
+						"w":	14,
+						"h":	72
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"weaponicon":	{
+					"rect":	{
+						"x":	-0.5500030517578125,
+						"y":	-96,
+						"w":	60,
+						"h":	32
+					},
+					"style":	0,
+					"anchor":	5,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"weaponammo":	{
+					"rect":	{
+						"x":	15.900009155273438,
+						"y":	97,
+						"w":	57,
+						"h":	14
+					},
+					"mainColor":	"78ffc8ff",
+					"anchor":	0,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"fireteam":	{
+					"rect":	{
+						"x":	-2.95001220703125,
+						"y":	4,
+						"w":	320,
+						"h":	103
+					},
+					"anchor":	2,
+					"parent":	{
+						"anchor":	2,
+						"component":	null
+					}
+				},
+				"popupmessages":	{
+					"rect":	{
+						"x":	4,
+						"y":	69,
+						"w":	284,
+						"h":	72
+					},
+					"style":	31,
+					"anchor":	0,
+					"parent":	{
+						"anchor":	0,
+						"component":	null
+					}
+				},
+				"powerups":	{
+					"rect":	{
+						"x":	26.399986267089844,
+						"y":	-91,
+						"w":	36,
+						"h":	36
+					},
+					"anchor":	6,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"objectives":	{
+					"rect":	{
+						"x":	-26.20001220703125,
+						"y":	-91,
+						"w":	36,
+						"h":	36
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"hudhead":	{
+					"rect":	{
+						"x":	-28,
+						"y":	0,
+						"w":	62,
+						"h":	80
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"cursorhints":	{
+					"rect":	{
+						"x":	-28.5,
+						"y":	12,
+						"w":	48,
+						"h":	48
+					},
+					"style":	0,
+					"anchor":	2,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"weaponstability":	{
+					"rect":	{
+						"x":	-68.899993896484375,
+						"y":	-5,
+						"w":	10,
+						"h":	64
+					},
+					"anchor":	3,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"livesleft":	{
+					"rect":	{
+						"x":	4,
+						"y":	-96,
+						"w":	48,
+						"h":	24
+					},
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"roundtimer":	{
+					"rect":	{
+						"x":	0,
+						"y":	80,
+						"w":	57,
+						"h":	14
+					},
+					"textStyle":	6,
+					"anchor":	1,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"reinforcement":	{
+					"rect":	{
+						"x":	4.875,
+						"y":	60,
+						"w":	57,
+						"h":	14
+					},
+					"textStyle":	6,
+					"textAlign":	1,
+					"anchor":	1,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"spawntimer":	{
+					"rect":	{
+						"x":	-5.12500762939453,
+						"y":	60,
+						"w":	57,
+						"h":	14
+					},
+					"textStyle":	6,
+					"textAlign":	1,
+					"anchor":	1,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"localtime":	{
+					"rect":	{
+						"x":	-3.1250152587890625,
+						"y":	56,
+						"w":	57,
+						"h":	14
+					},
+					"visible":	false,
+					"showBackGround":	false,
+					"showBorder":	false,
+					"anchor":	2,
+					"parent":	{
+						"anchor":	3,
+						"component":	null
+					}
+				},
+				"votetext":	{
+					"rect":	{
+						"x":	4,
+						"y":	30,
+						"w":	278,
+						"h":	28
+					},
+					"mainColor":	"ffffffff",
+					"secondaryColor":	"ffffffff",
+					"anchor":	0,
+					"parent":	{
+						"anchor":	7,
+						"component":	null
+					}
+				},
+				"spectatortext":	{
+					"rect":	{
+						"x":	4,
+						"y":	-30,
+						"w":	250,
+						"h":	38
+					},
+					"style":	1,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	7,
+						"component":	null
+					}
+				},
+				"limbotext":	{
+					"rect":	{
+						"x":	4,
+						"y":	-30,
+						"w":	278,
+						"h":	38
+					},
+					"anchor":	6,
+					"parent":	{
+						"anchor":	7,
+						"component":	null
+					}
+				},
+				"followtext":	{
+					"rect":	{
+						"x":	4,
+						"y":	-6,
+						"w":	278,
+						"h":	24
+					},
+					"style":	1,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	7,
+						"component":	null
+					}
+				},
+				"demotext":	{
+					"rect":	{
+						"x":	10,
+						"y":	0,
+						"w":	57,
+						"h":	14
+					},
+					"anchor":	0,
+					"parent":	{
+						"anchor":	0,
+						"component":	null
+					}
+				},
+				"missilecamera":	{
+					"rect":	{
+						"x":	4,
+						"y":	28,
+						"w":	160,
+						"h":	112
+					},
+					"style":	1,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	7,
+						"component":	null
+					}
+				},
+				"sprinttext":	{
+					"rect":	{
+						"x":	-20.500007629394531,
+						"y":	-75,
+						"w":	57,
+						"h":	14
+					},
+					"visible":	false,
+					"style":	1,
+					"textAlign":	2,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"breathtext":	{
+					"rect":	{
+						"x":	-46.000007629394531,
+						"y":	-75,
+						"w":	57,
+						"h":	14
+					},
+					"style":	1,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"weaponchargetext":	{
+					"rect":	{
+						"x":	25.5,
+						"y":	-76,
+						"w":	38,
+						"h":	14
+					},
+					"visible":	false,
+					"style":	1,
+					"textAlign":	0,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"ping":	{
+					"rect":	{
+						"x":	-3,
+						"y":	50,
+						"w":	57,
+						"h":	14
+					},
+					"visible":	false,
+					"anchor":	2,
+					"parent":	{
+						"anchor":	3,
+						"component":	null
+					}
+				},
+				"speed":	{
+					"rect":	{
+						"x":	-3,
+						"y":	-26,
+						"w":	57,
+						"h":	14
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	3,
+						"component":	null
+					}
+				},
+				"lagometer":	{
+					"showBackGround":	false
+				},
+				"disconnect":	{
+					"visible":	false,
+					"showBackGround":	false,
+					"showBorder":	false
+				},
+				"chat":	{
+					"rect":	{
+						"x":	4,
+						"y":	-1,
+						"w":	364,
+						"h":	72
+					},
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"spectatorstatus":	{
+					"rect":	{
+						"x":	0,
+						"y":	58,
+						"w":	140,
+						"h":	24
+					},
+					"anchor":	1,
+					"parent":	{
+						"anchor":	1,
+						"component":	null
+					}
+				},
+				"pmitemsbig":	{
+					"visible":	false
+				},
+				"warmuptitle":	{
+					"rect":	{
+						"x":	0,
+						"y":	86,
+						"w":	422,
+						"h":	24
+					},
+					"anchor":	1,
+					"parent":	{
+						"anchor":	1,
+						"component":	null
+					}
+				},
+				"warmuptext":	{
+					"rect":	{
+						"x":	-0.250030517578125,
+						"y":	-86,
+						"w":	300,
+						"h":	39
+					},
+					"anchor":	5,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"objectivetext":	{
+					"rect":	{
+						"x":	4,
+						"y":	-106,
+						"w":	300,
+						"h":	16
+					},
+					"visible":	false,
+					"style":	1,
+					"showBackGround":	false,
+					"showBorder":	false,
+					"textAlign":	0,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"centerprint":	{
+					"rect":	{
+						"x":	18.499969482421875,
+						"y":	-13,
+						"w":	300,
+						"h":	23
+					},
+					"textAlign":	0,
+					"anchor":	5,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"banner":	{
+					"visible":	false
+				},
+				"crosshairtext":	{
+					"style":	1
+				},
+				"crosshairbar":	{
+					"rect":	{
+						"x":	0,
+						"y":	-31,
+						"w":	130,
+						"h":	10
+					},
+					"visible":	false,
+					"style":	16,
+					"anchor":	5,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"stats":	{
+					"rect":	{
+						"x":	-3,
+						"y":	58,
+						"w":	57,
+						"h":	62
+					},
+					"visible":	false,
+					"anchor":	2,
+					"parent":	{
+						"anchor":	3,
+						"component":	null
+					}
+				}
+			}
+		}, {
+			"name":	"pug rtcw",
+			"number":	5,
+			"parent":	4,
+			"components":	{
+				"staminabar":	{
+					"rect":	{
+						"x":	3.75,
+						"y":	-3,
+						"w":	12,
+						"h":	72
+					},
+					"style":	1029,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"healthbar":	{
+					"visible":	false
+				},
+				"weaponchargebar":	{
+					"rect":	{
+						"x":	-3.7750396728515625,
+						"y":	-3,
+						"w":	12,
+						"h":	72
+					},
+					"style":	1029,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"healthtext":	{
+					"rect":	{
+						"x":	15.75,
+						"y":	-4,
+						"w":	57,
+						"h":	14
+					},
+					"scale":	125,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				},
+				"xptext":	{
+					"visible":	false
+				},
+				"statsdisplay":	{
+					"rect":	{
+						"x":	-3.9999847412109375,
+						"y":	-3,
+						"w":	14,
+						"h":	72
+					},
+					"visible":	false,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"weaponicon":	{
+					"rect":	{
+						"x":	-16.800018310546875,
+						"y":	-25,
+						"w":	60,
+						"h":	32
+					},
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"weaponammo":	{
+					"rect":	{
+						"x":	-14.25,
+						"y":	-6,
+						"w":	57,
+						"h":	14
+					},
+					"scale":	125,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
+				},
+				"popupmessages":	{
+					"rect":	{
+						"x":	4,
+						"y":	16,
+						"w":	284,
+						"h":	72
+					},
+					"style":	15,
+					"anchor":	0,
+					"parent":	{
+						"anchor":	0,
+						"component":	null
+					}
+				},
+				"roundtimer":	{
+					"rect":	{
+						"x":	-7.5,
+						"y":	108,
+						"w":	57,
+						"h":	14
+					},
+					"scale":	125,
+					"anchor":	0,
+					"parent":	{
+						"anchor":	0,
+						"component":	null
+					}
+				},
+				"reinforcement":	{
+					"rect":	{
+						"x":	2.0000152587890625,
+						"y":	-3,
+						"w":	57,
+						"h":	14
+					},
+					"scale":	300,
+					"mainColor":	"00fe00ff",
+					"anchor":	0,
+					"parent":	{
+						"anchor":	7,
+						"component":	null
+					}
+				},
+				"spawntimer":	{
+					"rect":	{
+						"x":	-0.75,
+						"y":	-106,
+						"w":	57,
+						"h":	14
+					},
+					"scale":	300,
+					"anchor":	5,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"spectatortext":	{
+					"rect":	{
+						"x":	-52.000030517578125,
+						"y":	-9,
+						"w":	250,
+						"h":	38
+					},
+					"visible":	false,
+					"anchor":	2,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
+				"limbotext":	{
+					"rect":	{
+						"x":	4.00000762939453,
+						"y":	-34,
+						"w":	278,
+						"h":	38
+					},
+					"anchor":	6,
+					"parent":	{
+						"anchor":	7,
+						"component":	null
+					}
+				},
+				"chat":	{
+					"rect":	{
+						"x":	4,
+						"y":	-77,
+						"w":	364,
+						"h":	72
+					},
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
+						"component":	null
+					}
+				}
+			}
+		}]
 }
