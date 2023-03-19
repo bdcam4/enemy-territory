@@ -572,7 +572,7 @@
 				}
 			}
 		}, {
-			"name":	"pug legacy",
+			"name":	"h2o hud",
 			"number":	4,
 			"parent":	3,
 			"components":	{
@@ -678,7 +678,7 @@
 				},
 				"xptext":	{
 					"rect":	{
-						"x":	-17.050003051757813,
+						"x":	-17.050003051757812,
 						"y":	-3,
 						"w":	58,
 						"h":	14
@@ -915,13 +915,12 @@
 				"votetext":	{
 					"rect":	{
 						"x":	4,
-						"y":	30,
+						"y":	-1,
 						"w":	278,
 						"h":	28
 					},
-					"mainColor":	"ffffffff",
 					"secondaryColor":	"ffffffff",
-					"anchor":	0,
+					"anchor":	7,
 					"parent":	{
 						"anchor":	7,
 						"component":	null
@@ -1324,7 +1323,7 @@
 				},
 				"objectives":	{
 					"rect":	{
-						"x":	45.550003051757813,
+						"x":	45.550003051757812,
 						"y":	-79,
 						"w":	36,
 						"h":	36
@@ -1383,8 +1382,7 @@
 					}
 				},
 				"votetext":	{
-					"style":	0,
-					"mainColor":	"ffff00ff"
+					"style":	0
 				},
 				"spectatortext":	{
 					"rect":	{
@@ -1402,24 +1400,11 @@
 				"limbotext":	{
 					"rect":	{
 						"x":	4.00000762939453,
-						"y":	-12,
+						"y":	-30,
 						"w":	278,
 						"h":	38
 					},
 					"anchor":	6,
-					"parent":	{
-						"anchor":	7,
-						"component":	null
-					}
-				},
-				"followtext":	{
-					"rect":	{
-						"x":	4,
-						"y":	3,
-						"w":	278,
-						"h":	24
-					},
-					"anchor":	7,
 					"parent":	{
 						"anchor":	7,
 						"component":	null
