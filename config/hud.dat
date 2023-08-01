@@ -292,18 +292,6 @@
 						"component":	null
 					}
 				},
-				"localtime":	{
-					"visible":	false
-				},
-				"fps":	{
-					"visible":	false
-				},
-				"ping":	{
-					"visible":	false
-				},
-				"speed":	{
-					"visible":	false
-				},
 				"pmitemsbig":	{
 					"visible":	false
 				}
@@ -748,9 +736,9 @@
 				},
 				"fireteam":	{
 					"rect":	{
-						"x":	-2.95001220703125,
+						"x":	-5.95001220703125,
 						"y":	4,
-						"w":	320,
+						"w":	250,
 						"h":	103
 					},
 					"anchor":	2,
@@ -766,7 +754,7 @@
 						"w":	284,
 						"h":	72
 					},
-					"style":	31,
+					"style":	8,
 					"anchor":	0,
 					"parent":	{
 						"anchor":	0,
@@ -919,6 +907,7 @@
 						"w":	278,
 						"h":	28
 					},
+					"style":	0,
 					"secondaryColor":	"ffffffff",
 					"anchor":	7,
 					"parent":	{
@@ -1057,14 +1046,18 @@
 				},
 				"speed":	{
 					"rect":	{
-						"x":	-3,
-						"y":	-26,
+						"x":	0,
+						"y":	19,
 						"w":	57,
 						"h":	14
 					},
-					"anchor":	4,
+					"visible":	false,
+					"scale":	120,
+					"showBackGround":	false,
+					"showBorder":	false,
+					"anchor":	1,
 					"parent":	{
-						"anchor":	3,
+						"anchor":	8,
 						"component":	null
 					}
 				},
@@ -1294,14 +1287,26 @@
 						"component":	null
 					}
 				},
+				"fireteam":	{
+					"rect":	{
+						"x":	-2.95001220703125,
+						"y":	4,
+						"w":	320,
+						"h":	103
+					},
+					"anchor":	2,
+					"parent":	{
+						"anchor":	2,
+						"component":	null
+					}
+				},
 				"popupmessages":	{
 					"rect":	{
 						"x":	4,
 						"y":	16,
-						"w":	284,
+						"w":	400,
 						"h":	72
 					},
-					"style":	8,
 					"anchor":	0,
 					"parent":	{
 						"anchor":	0,
@@ -1381,9 +1386,6 @@
 						"component":	null
 					}
 				},
-				"votetext":	{
-					"style":	0
-				},
 				"spectatortext":	{
 					"rect":	{
 						"x":	-52.000030517578125,
@@ -1407,6 +1409,21 @@
 					"anchor":	6,
 					"parent":	{
 						"anchor":	7,
+						"component":	null
+					}
+				},
+				"speed":	{
+					"rect":	{
+						"x":	0,
+						"y":	62,
+						"w":	57,
+						"h":	14
+					},
+					"scale":	100,
+					"mainColor":	"ffffffff",
+					"anchor":	1,
+					"parent":	{
+						"anchor":	8,
 						"component":	null
 					}
 				},
