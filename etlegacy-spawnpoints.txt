@@ -39,7 +39,7 @@ setspawnpt 4    // north hut
 setspawnpt 5    // north hut > flag center
 setspawnpt 3 1  // transmitter faster
 setspawnpt 4 1  // spawn back north hut faster
-setspawnpt 5 7  // start slow > flag left
+setspawnpt 5 7  // start left
 Allies
 setspawnpt 1    // south hill
 setspawnpt 2    // north hut
@@ -54,11 +54,15 @@ setspawnpt 4 1  // north right alternate
 Axis
 setspawnpt 1    // offices left
 setspawnpt 2    // offices right
-setspawnpt 2 6  // offices right fast
+setspawnpt 2 7  // offices right fast
+setspawnpt 2 25 // offices right slow
 Allies
 setspawnpt 1 1  // train left > flag left
 setspawnpt 2    // train right > flag right
-setspawnpt 3    // train 
+setspawnpt 2 3  // train right fast > flag right
+setspawnpt 2 4  // train right fast > flag right fast
+setspawnpt 2 15 // train right slow > flag right slow
+setspawnpt 3    // train back
 
 ### autoexec_etl_supply
 Axis
