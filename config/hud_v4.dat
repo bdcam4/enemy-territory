@@ -4,10 +4,7 @@
 			"name":	"pug rtcw",
 			"components":	{
 				"crosshair":	{
-					"style":	0,
-					"scale":	99.954483032226562,
-					"mainColor":	"00ff00ff",
-					"secondaryColor":	"00ffffff"
+					"scale":	99.954483032226562
 				},
 				"compass":	{
 					"rect":	{
@@ -267,9 +264,6 @@
 						"anchor":	7,
 						"component":	null
 					}
-				},
-				"votetext":	{
-					"style":	0
 				},
 				"spectatortext":	{
 					"rect":	{
